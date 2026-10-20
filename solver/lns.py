@@ -150,11 +150,11 @@ def lns_solver(instance, program_start_time, output_path, safety_margin=3, T_sta
     s ← s0;  s* ← s
     repeat
         s′ ← s
-        destroy part of s′          (sekce 4)
-        repair s′                   (sekce 5)
-        if f(s′) < f(s*) then s* ← s′      (best)
-        if accept(s′, s) then s ← s′        (current, sekce 8)
-    until stopping criteria       (sekce 10)
+        destroy part of s′
+        repair s′
+        if f(s′) < f(s*) then s* ← s′
+        if accept(s′, s) then s ← s′
+    until stopping criteria
     return s*
     """
 
