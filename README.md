@@ -2,7 +2,7 @@
 
 Solver for the Travelling Salesman Problem using Large Neighborhood Search (LNS) with simulated annealing acceptance. 
 
-__Offline impelmentation without any LLM tools or even Internet connection, only using literature, Python syntax hint extension and good old debugger.__
+__Implemented fully offline, without any LLM tools or even an internet connection. Only literature, a Python syntax extension and a debugger.__
 
 Design decisions were written down before coding, including the first takes and why they changed: [BEFORE_CODING.md](BEFORE_CODING.md).
 
